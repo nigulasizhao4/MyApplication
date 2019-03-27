@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.home1.test.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="red"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="orange"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="76dp"
+        android:layout_height="73dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="yellow"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+        android:background="@android:color/holo_green_light"
+        android:text="green"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="72dp"
+        android:layout_height="63dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="blue"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:background="@android:color/holo_purple"
+        android:text="indigo"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="383dp"
+        android:layout_height="57dp"
+        android:background="@color/colorAccent"
+        android:text="violiet"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+</android.support.constraint.ConstraintLayout>
